@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bank Account</title>
+    <style>
+        /* Add your styles here */
+    </style>
+</head>
+<body>
+
+    <h1>Online Bank Account</h1>
+
+    <!-- Registration Form -->
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Login Form -->
+    <form id="loginForm" onsubmit="return validateLoginForm()">
+        <label for="loginUsername">Username:</label>
+        <input type="text" id="loginUsername" required>
+
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- Dashboard with Drop-down Menus -->
+    <div id="dashboard">
+        <h2>Welcome to Your Dashboard</h2>
+
+        <label for="accountOptions">Select an option:</label>
+        <select id="accountOptions">
+            <option value="balance">Check Balance</option>
+            <option value="transactions">View Transactions</option>
+            <option value="transfer">Transfer Money</option>
+        </select>
+
+        <button onclick="performSelectedAction()">Go</button>
+    </div>
+
+    <script>
+        // Add your JavaScript code for form validation and dashboard actions here
+        function validateForm() {
+            // Add validation logic for registration form
+            // Return true if the form is valid, false otherwise
+        }
+
+        function validateLoginForm() {
+            // Add validation logic for login form
+            // Return true if the form is valid, false otherwise
+        }
+
+        function performSelectedAction() {
+            // Add logic to perform the selected action from the dashboard
+        }
+    </script>
+</body>
+</html>
