@@ -29,7 +29,8 @@
 ---
 
 ## Installation
-### Windows [Setup Guide](https://www.youtube.com/watch?v=gBg5Tuf1fwY)
+### Windows
+> [Setup Guide](https://www.youtube.com/watch?v=gBg5Tuf1fwY)
 1. Clone the repository or download the ZIP:
 ```bash
 git clone https://github.com/shrestha-bishal/rclone-manager.git
