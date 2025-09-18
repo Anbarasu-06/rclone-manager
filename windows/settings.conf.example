@@ -1,0 +1,32 @@
+# Name of your Rclone remote
+remote=cloud
+
+# Local drive letter (Windows) or mount point (Linux)
+drive=X
+
+# Web GUI username
+rc_user=admin
+
+# Web GUI password
+rc_pass=secret
+
+# Web GUI address and port
+rc_addr=localhost:5572
+
+# Bandwidth limit (e.g., 10M = 10 megabytes per second)
+bwlimit=10M
+
+# Number of concurrent transfers
+transfers=4
+
+# VFS cache mode (recommended: writes)
+vfs_cache_mode=writes
+
+# Directory cache duration
+dir_cache_time=72h
+
+# Poll interval for detecting changes
+poll_interval=15s
+
+# Buffer size per file transfer
+buffer_size=64M
