@@ -12,18 +12,36 @@
 ---
 
 ## Requirements
+### Windows
 - [Rclone](https://rclone.org/downloads/) installed and added to your system PATH.  
-- Windows OS (Linux support coming soon).  
+- [WinSCP](https://winscp.net/) installed (required for some file operations).  
+- Windows OS.  
 - Optional: Web browser to access Rclone Web GUI.  
+
+### Linux (coming soon)
+- [Rclone](https://rclone.org/downloads/) installed via package manager or binary.  
+- Linux OS (Ubuntu, Debian, Fedora, etc.).  
+- Bash shell for running the Linux version of Rclone Manager.  
+- Optional: Web browser to access Rclone Web GUI.  
+
 ---
 
 ## Installation
+### Windows
 1. Clone the repository or download the ZIP:
 ```bash
 git clone https://github.com/shrestha-bishal/rclone-manager.git
 ```
 2. Ensure rclone.exe is installed and available in your system PATH.
 3. Configure settings.conf in the same folder as app.bat.
+
+### Linux (coming soon)
+1. Clone the repository or download the ZIP:
+```bash
+git clone https://github.com/shrestha-bishal/rclone-manager.git
+```
+2. Ensure rclone is installed and available in your PATH.
+3. Configure settings.conf in the same folder as the Linux script (app.sh).
 
 ## Configuration (settings.conf)
 | Setting          | Description                          | Example          |
