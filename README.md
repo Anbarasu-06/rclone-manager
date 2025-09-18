@@ -92,6 +92,14 @@ Bishal Shrestha
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/shrestha-bishal)
 [![Repo](https://img.shields.io/badge/Repository-GitHub-black?logo=github)](https://github.com/shrestha-bishal/rclone-manager)
 
+## Funding & Sponsorship
+`rclone-manager` is an open-source project maintained with care to deliver a reliable. If you or your organization find this project valuable, please consider supporting its development. Your sponsorship helps sustain long-term maintenance, improve features and documentation, and keep the library freely available to the community. As a token of appreciation, sponsors may have their logo and link featured in the project README.
+
+### Support options:
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Become%20a%20Sponsor-blueviolet?logo=githubsponsors&style=flat-square)](https://github.com/sponsors/shrestha-bishal)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Developer-yellow?logo=buymeacoffee&style=flat-square)](https://www.buymeacoffee.com/shresthabishal)
+[![Thanks.dev](https://img.shields.io/badge/Thanks.dev-Appreciate%20Open%20Source-29abe0?logo=github&style=flat-square)](https://thanks.dev/gh/shrestha-bishal)
+
 © 2025 Bishal Shrestha, All rights reserved
 
 <img width="1061" height="567" alt="image" src="https://github.com/user-attachments/assets/cedf51a2-516c-45e6-b145-97125e1ff4a0" />
