@@ -71,7 +71,7 @@ Enter command: mount
 Show logs in CMD? (y/N): N
 ```
 
-** Open your browser to access Web GUI:
+**Open your browser to access Web GUI:
 ```
 http://localhost:5572
 ```
