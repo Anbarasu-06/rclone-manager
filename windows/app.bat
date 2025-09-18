@@ -49,6 +49,7 @@ echo Type one of the following commands:
 echo mount             - Mount the remote (with Web GUI)
 echo reconnect         - Reconnect a remote
 echo unmount           - Unmount the drive
+echo refresh           - Forget + refresh VFS cache
 echo exit              - Exit the application
 echo ================================
 set /p CMD=Enter command: 
@@ -58,6 +59,7 @@ if /i "%CMD%"=="exit" exit /b
 if /i "%CMD%"=="mount" goto mount
 if /i "%CMD%"=="reconnect" goto reconnect
 if /i "%CMD%"=="unmount" goto unmount
+if /i "%CMD%"=="refresh" goto refresh_cache
 
 echo Unknown command: %CMD%
 pause
@@ -107,5 +109,21 @@ for /f "tokens=2" %%i in ('wmic process where "name='rclone.exe' and commandline
     taskkill /PID %%i /F
 )
 echo Done.
+pause
+goto menu
+
+:: ===========================
+:: Refresh VFS cache
+:: ===========================
+:refresh_cache
+echo Refreshing VFS cache for %remoteName%...
+
+:: Forget old cache
+rclone rc vfs/forget --rc-user=%rc_user% --rc-pass=%rc_pass%
+
+:: Refresh cache
+rclone rc vfs/refresh --rc-user=%rc_user% --rc-pass=%rc_pass%
+
+echo VFS cache refreshed.
 pause
 goto menu
