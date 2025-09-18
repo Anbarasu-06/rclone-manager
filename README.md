@@ -2,7 +2,7 @@
 
 **Rclone Manager** is a simple and user-friendly batch script tool for managing your Rclone remotes on Windows and Linux (under development). It allows you to `mount`, `reconnect`, and `unmount` drives with optional Web GUI access, providing an interactive menu to simplify repetitive Rclone commands.
 
-> Note: This program assumes that all upstream remotes are already configured in Rclone and that any merge mounts are set up. If you are not sure how to do this, please watch the demonstration video on my YouTube channel: [Windows Setup Guide](https://www.youtube.com/watch?v=gBg5Tuf1fwY).
+> Note: This program assumes that all upstream remotes are already configured in Rclone and that any merge mounts are set up. If you are not sure how to do this, please watch the demonstration video on my [YouTube](https://youtube.com/@bishalshrestha-swe) channel: [Windows Setup Guide](https://www.youtube.com/watch?v=gBg5Tuf1fwY).
 
 ## Features
 - Mount a remote drive with Rclone and Web GUI.  
